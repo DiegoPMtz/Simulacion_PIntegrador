@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grap"
+    app:startDestination="@id/fragment_Inicio">
+
+    <fragment
+        android:id="@+id/fragment_Inicio"
+        android:name="com.example.simulacion.fragment_Inicio"
+        android:label="fragment__inicio"
+        tools:layout="@layout/fragment__inicio" >
+        <action
+            android:id="@+id/action_fragment_Inicio_to_fragment_chi"
+            app:destination="@id/fragment_chi" />
+        <action
+            android:id="@+id/action_fragment_Inicio_to_fragment_cuadrados"
+            app:destination="@id/fragment_cuadrados" />
+        <action
+            android:id="@+id/action_fragment_Inicio_to_fragment_montecarlo"
+            app:destination="@id/fragment_montecarlo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_chi"
+        android:name="com.example.simulacion.fragment_chi"
+        android:label="fragment_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/fragment_cuadrados"
+        android:name="com.example.simulacion.fragment_cuadrados"
+        android:label="fragment_cuadrados"
+        tools:layout="@layout/fragment_cuadrados" />
+    <fragment
+        android:id="@+id/fragment_montecarlo"
+        android:name="com.example.simulacion.fragment_montecarlo"
+        android:label="fragment_montecarlo"
+        tools:layout="@layout/fragment_montecarlo" />
+</navigation>
