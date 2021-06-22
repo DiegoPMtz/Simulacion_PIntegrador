@@ -46,5 +46,12 @@ public class fragment_Inicio extends Fragment {
                 navController.navigate(R.id.fragment_montecarlo);
             }
         });
+
+        btn_cuadrados.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navController.navigate(R.id.fragment_cuadrados);
+            }
+        });
     }
 }

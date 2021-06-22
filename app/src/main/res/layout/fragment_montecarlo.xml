@@ -52,7 +52,7 @@
                     android:id="@+id/et_argumento"
                     android:layout_width="55dp"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
+                    android:inputType="numberSigned"
                     android:textSize="20sp"/>
             </LinearLayout>
 
@@ -73,7 +73,7 @@
                     android:id="@+id/et_potencia"
                     android:layout_width="55dp"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
+                    android:inputType="numberSigned"
                     android:textSize="20sp"/>
             </LinearLayout>
 
@@ -96,7 +96,7 @@
                 android:id="@+id/et_independiente"
                 android:layout_width="55dp"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberSigned"
                 android:textSize="20sp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -186,7 +186,7 @@
         android:id="@+id/btn_calcular"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:backgroundTint="#78ccc1"
         android:text="Calcular"
