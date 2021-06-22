@@ -29,6 +29,8 @@ public class monteCarlo {
         if (indep > 1) {
             ecuacion.append(" + ");
             ecuacion.append(indep);
+        }else{
+            ecuacion.append(indep);
         }
         k++;
     }
