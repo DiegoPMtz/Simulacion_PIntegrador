@@ -36,7 +36,6 @@ public class fragment_Inicio extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         NavController navController = Navigation.findNavController(view);
         btn_monte = view.findViewById(R.id.montecarlo);
-        btn_chi = view.findViewById(R.id.chi);
         btn_cuadrados = view.findViewById(R.id.cuadrados);
 
 
